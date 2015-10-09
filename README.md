@@ -8,10 +8,12 @@ JavaMail 1.4以上
 
 ## Build
 ご自身でソースからビルドする場合、以下の手順でビルドしてください。  
-    $ git clone https://github.com/hde-cm/java-smtp-client.git
-    $ cd java-smtp-client
-    $ mvn install
-    $ cp target/cmc-smtp-1.0.0.jar ./cmc-smtp.jar
+```
+$ git clone https://github.com/hde-cm/java-smtp-client.git
+$ cd java-smtp-client
+$ mvn install
+$ cp target/cmc-smtp-1.0.0.jar ./cmc-smtp.jar
+```
 
 ## Install
 cmc-smtp.jar をクラスパスが通っているディレクトリにコピーしてください。  
